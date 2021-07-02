@@ -187,6 +187,7 @@ LICENSE_FLAGS_WHITELIST="commercial"
 IMAGE_FSTYPES += " wic"
 SKIP_META_VIRT_SANITY_CHECK = "1"
 PACKAGECONFIG_append_pn-qemu-system-native = " sdl"
+IMAGE_FSTYPES = "live hddimg iso"
 
 EOF
     # Change settings according environment
