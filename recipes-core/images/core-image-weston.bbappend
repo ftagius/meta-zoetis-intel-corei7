@@ -2,7 +2,6 @@ require core-image-weston.inc
 EXTRA_IMAGE_FEATURES = "package-management"
 IMAGE_FEATURES += "ssh-server-openssh"
 IMAGE_INSTALL_remove = "packagegroup-core-ssh-dropbear"
-IMAGE_FSTYPES = "live hddimg iso"
 INHERIT += "image-buildinfo"
 
 IMAGE_INSTALL += " \
